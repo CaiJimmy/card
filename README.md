@@ -1,6 +1,6 @@
 # Card
 
-[Card](https://i.imgur.com/XySeu3b.png)
+![Card](https://i.imgur.com/XySeu3b.png)
 
 A lightweight Material Design home page.
 
