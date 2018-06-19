@@ -229,51 +229,6 @@ body {
     }
 }
 
-#card--links {
-    @flex();
-    flex-wrap: wrap;
-    .link--item {
-        flex-basis: 50%;
-        overflow: hidden;
-        position: relative;
-        img {
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 150px;
-            display: block;
-            object-fit: cover;
-            transition: transform .3s ease;
-        }
-        .link--info {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, .3);
-            @flex();
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            .opacity(0);
-            .transition(all .3s ease);
-        }
-        span.link--name {
-            font-size: 25px;
-            color: #FFF;
-        }
-        &:hover {
-            img {
-                .transform(scale(1.2));
-            }
-            .link--info {
-                .opacity(1);
-            }
-        }
-    }
-}
-
 div#loader {
     height: 100vh;
     width: 100vw;
