@@ -8,7 +8,7 @@
 
 @backgroundColor: #f4f7f6;
 
-@mobile: ~"only screen and (max-width: 720px)";
+@mobile: ~"only screen and (max-width: 600px) and (max-height: 815px)";
 @desktop: ~"only screen and (min-width:1200px)";
 
 @background: {
@@ -200,6 +200,10 @@ body {
             padding: 10px;
             flex-grow: 1;
             margin: 5px;
+
+            @media @mobile{
+                flex-basis: 40%;
+            }
 
             &.hide{
                 display: none;
